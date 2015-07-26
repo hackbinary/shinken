@@ -5,10 +5,10 @@
 About Shinken
 ==============
 
-Shinken is an open source monitoring framework written in Python under the terms of the `GNU Affero General Public License`_ .
+Shinken is an open source monitoring framework written in Python under the terms of the `GNU Affero General Public License`_.
 It was created in 2009 as a simple proof of concept of a `Nagios`_ patch. The first release of Shinken was the December 1st of 2009 as simple monitoring tool.
 Since the 2.0 version (April 2014) Shinken is described as a monitoring framework due to its high number of modules.
-For the same reason, modules are now in separated repositories. You can find some in the `shinken-monitoring organization's page`_ on Github
+For the same reason, modules are now in separate repositories. You can find some in the `shinken-monitoring organization's page`_ on Github.
 
 
 
