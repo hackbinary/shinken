@@ -12,24 +12,25 @@ For the same reason, modules are now in separated repositories. You can find som
 
 
 
-Shinken Project
-================
+The Shinken Project
+===================
 
 Shinken is now an open source monitoring *framework* but was first created to be a open source monitoring *solution*.
 This difference is important for the team, a framework does not have the same use than an all in one solution.
 The main idea when developing Shinken is the flexibility which is our definition of framework.
-Nevertheless, Shinken was first made differently and we try to keep all the good things that made it a monitoring solution :
-   * Easy to install : install is mainly done with pip but some packages are available (deb / rpm) and we are planning to provide nightly build.
-   * Easy for new users : once installed, Shinken provide a simple command line interface to install new module and packs.
-   * Easy to migrate from Nagios : we want Nagios configuration and plugins to work in Shinken so that it is a "in place" replacement.
-     Plugins provide great flexibility and are a big legacy codebase to use. It would be a shame not to use all this community work
-   * Multi-platform : python is available in a lot of OS. We try to write generic code to keep this possible.
-   * Utf8 compliant : python is here to do that. For now Shinken is compatible with 2.6-2.7 version but python 3.X is even more character encoding friendly.
-   * Independent from other monitoring solution : our goal is to provide a modular *tool* that can integrate with others through standard interfaces). Flexibility first.
-   * Flexible : in an architecture point view. It is very close to our scalability wish. Cloud computing is make architecture moving a lot, we have to fit to it.
-   * Fun to code : python ensure good code readability. Adding code should not be a pain when developing.
+Nevertheless, Shinken was first made differently and we try to keep all the good things that made it a monitoring solution:
 
-This is basically what Shinken is made of. Maybe add the "keep it simple" Linux principle and it's prefect. There is nothing we don't want, we consider every features / ideas.
+   * Easy to install:  Install is mainly done with pip, but some packages are available (deb / rpm) and we are planning to provide nightly build.
+   * Easy for new users:  Once installed, Shinken provides a simple command line interface to install new modules and pack.
+   * Easy to migrate from Nagios:  Nagios configuration and plugins will work with Shinken, so Shinken is an "in place" replacement.
+     Plugins provide great flexibility and are a big legacy codebase to use.  It would be a shame not to use all this community work.
+   * Multi-platform: Python is available for many Operating Systems.  Shinken is written to be as cross platform as possible.
+   * UTF8 compliant:  Python handles UTF8 well.  Shinken currently targets Python 2.6-2.7 version, but migration to Python 3.X is underway, which is UTF8 native.
+   * Independent from other monitoring solution : our goal is to provide a modular *tool* that can integrate with others through standard interfaces). Flexibility first.
+   * Flexible:  From an architecture point of view, Shinken is designed to scale therefore it will handle the evolving cloud computing environments easily.
+   * Fun to code:  Python ensures good code readability.  Adding code should not be a pain when developing.
+
+Shinken is designed to be a modular, flexible, scaleable monitoring framework that you use to build the system the you need to track and understand your infrastructure.  The Shinken project welcomes feedback from new and verteran users, system adminitrators and developers.
 
 
 Features
